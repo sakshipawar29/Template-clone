@@ -226,6 +226,7 @@ nav ul li a{
     width:100%;
     background:#f8f8f8;
     padding:50px 0;
+     font-family:'Special Elite', cursive;
 }
 
 .container{
@@ -407,6 +408,138 @@ nav ul li a{
     color:black;
 }
 
+/*page 5*/
+
+.recovery-section{
+    min-height:100vh;
+    background:#f8f8f8;
+    padding:70px;
+    position:relative;
+
+    display:flex;
+    justify-content:space-between;
+}
+
+.left-icons-recovery{
+    position:absolute;
+    left:30px;
+    top:40px;
+
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+
+.left-icons-recovery span{
+    color:#00d9ff;
+    font-size:35px;
+    font-weight:bold;
+}
+
+.recovery-content{
+    width:55%;
+}
+
+.recovery-content h1{
+    font-size:55px;
+    line-height:1.2;
+    margin-bottom:25px;
+    color:#111;
+}
+
+.recovery-line{
+    width:120px;
+    height:8px;
+    background:#00d9ff;
+    border-radius:10px;
+    margin-bottom:60px;
+}
+
+.recovery-list{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+}
+
+.recovery-item{
+    display:flex;
+    gap:40px;
+    align-items:flex-start;
+}
+
+.recovery-icon{
+    width:120px;
+    height:120px;
+    background:#081829;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.recovery-icon i{
+    font-size:55px;
+    color:#00d9ff;
+}
+
+.recovery-item ul{
+    list-style-type:disc;
+}
+
+.recovery-item li{
+    font-size:22px;
+    line-height:1.8;
+    color:#555;
+}
+
+.recovery-right{
+    width:40%;
+    position:relative;
+}
+
+.recovery-image{
+    width:450px;
+    height:450px;
+    border-radius:50%;
+    overflow:hidden;
+    margin:auto;
+}
+
+.recovery-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.recovery-text{
+    margin-top:30px;
+
+    font-family:'Caveat', cursive;
+    color:#00d9ff;
+
+    font-size:55px;
+    font-weight:bold;
+
+    text-align:center;
+}
+
+.recovery-crosses{
+    position:absolute;
+    right:0;
+    bottom:100px;
+
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.recovery-crosses span{
+    color:#00d9ff;
+    font-size:35px;
+    font-weight:bold;
+}
 
 /* =========================
    RESPONSIVE
